@@ -1,0 +1,26 @@
+package com.LearningJava;
+/*
+   String are use to store  text which is collection of multiple character sorrounded by doouble quotes;
+   
+ */
+
+public class JavaStrings {
+
+	public static void main(String[] args) {
+		
+		//example 1
+		String Name = "Bilal Shaikh";
+		System.out.println(Name);	
+		
+		
+		//String is an object type in java becouse it perform certain tast
+		System.out.println(Name.length());
+		
+		// there are many method available in srting 1 toUpperCase() 2 toLowerCase
+		System.out.println(Name.toUpperCase());
+		
+		System.out.println(Name.toLowerCase());
+		
+	}
+
+}

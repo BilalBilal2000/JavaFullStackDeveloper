@@ -1,0 +1,72 @@
+package com.LearningJava;
+
+public class JavaIfElse {
+
+	public static void main(String[] args) {
+		/*
+		 Use if to specify a block of code to be executed, if a specified condition is true. 
+		 Use else to specify a block of code to be executed, if the same condition is false. 
+		 Use else if to specify a new condition to test, if the first condition is false.
+		 
+		 Java has the following conditional statements:
+
+			Use if to specify a block of code to be executed, if a specified condition is true
+			Use else to specify a block of code to be executed, if the same condition is false
+			Use else if to specify a new condition to test, if the first condition is false
+			Use switch to specify many alternative blocks of code to be executed
+		 */
+		
+//		example 1
+		
+		 if (20>=15) {
+			 System.out.println("20 is Greater than 15");
+		 }
+		 
+//			example 2
+		 int A = 15;
+		 int B = 25;
+		 if (B>A) {
+			 System.out.println ("B is greater than A");
+		 }
+		 else {
+			  System.out.print("A is small than B");
+		 }
+		 
+//		 Example3
+		 
+	  int age = 61;
+		  if (age<=0) {
+			  System.out.println("Invalid Age");
+		  }
+		  else if (age>=18 ) {
+			  System.out.println("You are eligible for Vote!");
+		  }
+		  else {
+			  System.out.println("You ar not eligible for vote!");
+		  }
+		  
+		  
+//		  Example 4
+		 int number= 8;
+		  
+		  if (number%2 == 0) {
+			  System.out.println(number+" "+"This Number divisible by 2");
+		  }
+		  else {
+			  System.out.println(number+" "+"This no is not divisible by 2");
+		  }
+		  
+		  
+		  // turnary operation 
+		int Age1 =20;
+		System.out.println(Age1)
+		
+		
+		  
+		 
+		
+		
+
+	}
+
+}

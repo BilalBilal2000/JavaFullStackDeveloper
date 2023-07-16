@@ -1,0 +1,67 @@
+package com.LearningJava;
+
+/*
+   Variable is Nothing but It act like a container which store the value in it also we say that it allocate the memory location
+   to store program data to it 
+   
+   in java have diffrent type of varible
+   
+    String 		- stores text, such as "Hello". String values are surrounded by double quotes
+	int		    - stores integers (whole numbers), without decimals, such as 123 or -123
+	float 		- stores floating point numbers, with decimals, such as 19.99 or -19.99
+	char 		- stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+	boolean 	- stores values with two states: true or false
+	
+	
+	syntax
+		type variableName = value;
+	
+	Where type is one of Java's types (such as int or String), and variableName is the name of the variable 
+    (such as x or name). The equal sign is used to assign values to the variable.
+ */
+
+public class JavaVariable {
+
+	public static void main(String[] args) {
+		
+	// string varible 
+		
+	String Name ="Nilesh";
+	System.out.println(Name);
+	
+	// number variable
+	int num=15;
+	System.out.println(num);
+	
+	//we can also declare a variable without assigning the value, and assign the value later:
+	int myNum;
+	myNum = 15;
+	System.out.println(myNum);
+	
+	/*Note that if you assign a new value to an existing variable, it will overwrite the previous value:
+
+		Change the value of myNum from 15 to 20:*/
+
+		int MyNum = 15;
+		MyNum = 20;  // myNum is now 20
+		System.out.println(MyNum);
+	
+		
+		
+		
+		/*Display Variables
+		The println() method is often used to display variables. To combine both text and a variable, use the + character:
+		*/
+		
+		String Name1="Bilal";
+		System.out.println("Hello " +Name1);
+		
+		// we can also combine two another variable 
+		 String lastName="Shaikh";
+		 String FistName="Bilal";
+		 System.out.print(FistName + lastName);
+		
+		
+	}
+
+}

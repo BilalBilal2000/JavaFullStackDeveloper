@@ -1,0 +1,16 @@
+package com.LearningJava;
+
+public class JavaSwitch {
+
+	public static void main(String[] args) {
+		// instant of writing to many line of code in If else we can use alternative of its.
+		
+
+	}
+	int day = 4;
+	switch(day) {
+	case 1:
+		System.out.println("Sunday")
+	}
+
+}

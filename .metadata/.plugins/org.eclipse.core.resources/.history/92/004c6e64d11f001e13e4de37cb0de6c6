@@ -1,0 +1,19 @@
+package com.LearningJava;
+
+public class JavaDataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Data Type Of Jave");
+	}
+
+}
+
+/*
+  In Jva there are two type of Data type
+  1 primitive
+  	1 byte		1byte		store the value from -128 to 127
+  	2 short 	2byte		store the value from -32768 to 32767
+  	3 integer	4byte		store the value from -2,147,483,648 to 2,147,483,647
+  	4 long		8byte		store the value from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+*/

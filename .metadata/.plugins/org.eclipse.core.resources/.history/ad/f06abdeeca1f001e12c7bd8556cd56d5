@@ -1,0 +1,9 @@
+package com.LearningJava;
+
+public class JavaOutPut {
+
+	public static void main(String[] args) {
+		System.out.println("In this Section im clear about java Output"+" syntax and to print any statement");
+	}
+
+}

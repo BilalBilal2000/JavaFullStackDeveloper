@@ -1,0 +1,39 @@
+package com.LearningJava;
+
+public class JavaOutPut {
+
+	public static void main(String[] args) {
+		System.out.println("In this Section im clear about java Output syntax and to print any statement");
+	}
+
+
+
+
+
+/*
+ 	System :  is buid in class of java that are  containe  useul members such as Out print and println
+ 	
+ 	printing a text in java its must be surrounded by  doubble quates("This is Text");
+ 	printing a number in java is quit simple  wedont want to but is on double qoutes (5);
+ 	
+ 	
+ 	i java there are two different  method to print output.
+ 	1 print
+ 	2 println
+ 	the difference bettween Print and Println  only that is does not insert  new line  at the end of output.
+ 	
+ 
+ */
+
+// printing text
+
+public static void number (String[] args) {
+	
+	System.out.print("This is text");
+	System.out.print("This is Number",55);
+	
+	
+}
+
+
+};

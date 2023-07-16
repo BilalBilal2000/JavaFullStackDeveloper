@@ -1,0 +1,7 @@
+package com.LearningJava;
+
+public class DataTypeJava {
+	
+	System.out.print(55)
+
+}

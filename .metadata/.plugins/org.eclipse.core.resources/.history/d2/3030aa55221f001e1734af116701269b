@@ -1,0 +1,12 @@
+package com.DayTwo;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+	 
+		int a =4;
+		int b = 4;
+		System.out.print( a+b);
+	}
+
+}

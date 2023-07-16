@@ -1,0 +1,17 @@
+package com.DayTwo;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+	 
+		int a =4;
+		int b = 4;
+		int c = a+b;
+		System.out.print(c);
+		Syste.out.println("Hello,I,AM Bilal Shaikh ")
+		  
+		
+		
+	}
+
+}

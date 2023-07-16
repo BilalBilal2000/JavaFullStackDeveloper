@@ -1,0 +1,43 @@
+/*
+  In Jva there are two type of Data type
+  1 primitive
+  	1 byte		1byte		store the whole number from -128 to 127
+  	2 short 	2byte		store the whole number from -32768 to 32767
+  	3 integer	4byte		store the Whole number from -2,147,483,648 to 2,147,483,647
+  	4 long		8byte		store the value from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+  	5 float		4bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+ 	6 double	8bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+	7 boolean	1bit		Stores true or false values
+	8 char		2bytes		Stores a single character/letter or ASCII values
+	
+  2 Non-primitive 
+  	1 object 
+  	2 array
+  	3 classes
+  	4 string 
+*/
+package com.LearningJava;
+
+public class JavaDataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Data Type Of Jave");
+		
+		
+		
+		int myNum = 5;               // Integer (whole number)
+		float myFloatNum = 5.99f;    // Floating point number
+		char myLetter = 'D';         // Character
+		boolean myBool = true;       // Boolean
+		String myText = "Hello";     // String
+		
+		System.out.print(myNum);
+		System.out.print(myFloatNum);
+		System.out.print(myLetter);
+		System.out.print(myBool);
+		System.out.print(myText);
+	}
+
+}
+
